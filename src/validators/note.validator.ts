@@ -1,5 +1,5 @@
-import * as Joi from 'joi';
-import { RegExpEnum } from '../constants/regexp.enum';
+import * as Joi from "joi";
+import { RegExpEnum } from "../constants/regexp.enum";
 
 export const filterNoteValidator = Joi.object({
     name: Joi.string().max(99).required(),
